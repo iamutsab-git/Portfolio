@@ -2,56 +2,33 @@ import React from 'react'
 import Project from '../ProjectCart/Project'
 
 const Portfolio = () => {
-  // Your projects data - replace with your actual GitHub projects
+  
   const projects = [
     {
-      title: "Project Name 1",
-      description: "Brief description of your project. What problem does it solve? What makes it special? Include key features and functionality.",
-      technologies: ["React", "Node.js", "MongoDB", "Express"],
-      githubUrl: "https://github.com/yourusername/project1",
+      title: "Portfolio",
+      description: "A clean and responsive personal portfolio website built with React. It showcases my skills, projects, and contact information as a full stack web developer.",
+      technologies: ["React", "TailwindCSS"],
+      githubUrl: "https://github.com/iamutsab-git/Portfolio",
       liveUrl: "https://your-project1-demo.netlify.app",
-      imageUrl: null // Add your project screenshot here
+      imageUrl: "./src/assets/Portfolio_SS.png"
     },
     {
-      title: "Project Name 2", 
-      description: "Another project description. Highlight the technologies used and what makes this project unique or challenging.",
-      technologies: ["JavaScript", "HTML5", "CSS3", "API"],
-      githubUrl: "https://github.com/yourusername/project2",
-      liveUrl: "https://your-project2.github.io",
-      imageUrl: null
+      title: "Movie Munch", 
+      description: "A sleek and simple web app for searching movies using the React, TailwindCSS, TMDB API. Through this project, I have learnt the concept of API.",
+      technologies: ["React", "TailwindCSS", "API"],
+      githubUrl: "https://github.com/iamutsab-git/Movie-Munch",
+      liveUrl: "https://iamutsab-git.github.io/Movie-Munch/",
+      imageUrl: "./src/assets/Movie-Munch_SS.png"
     },
     {
-      title: "Project Name 3",
-      description: "Describe your third project. What did you learn? What problems did you solve? Any interesting features?",
-      technologies: ["React", "Tailwind CSS", "Firebase"],
-      githubUrl: "https://github.com/yourusername/project3",
-      liveUrl: null, // No live demo
-      imageUrl: null
-    },
-    {
-      title: "Project Name 4",
-      description: "Fourth project description. Focus on the impact, functionality, and technical challenges you overcame.",
-      technologies: ["Next.js", "TypeScript", "Prisma", "PostgreSQL"],
-      githubUrl: "https://github.com/yourusername/project4",
-      liveUrl: "https://your-project4.vercel.app",
-      imageUrl: null
-    },
-    {
-      title: "Project Name 5",
-      description: "Fifth project description. What technologies did you explore? What was the most challenging part?",
-      technologies: ["Python", "Django", "SQLite", "Bootstrap"],
-      githubUrl: "https://github.com/yourusername/project5",
-      liveUrl: null,
-      imageUrl: null
-    },
-    {
-      title: "Project Name 6",
-      description: "Sixth project description. Highlight any collaborations, open-source contributions, or learning experiences.",
-      technologies: ["Vue.js", "Vuex", "Node.js", "MySQL"],
-      githubUrl: "https://github.com/yourusername/project6",
-      liveUrl: "https://your-project6.herokuapp.com",
-      imageUrl: null
+      title: "W3School Clone",
+      description: "This is a simple clone of the W3Schools homepage created using HTML and CSS. It aims to mimic the layout and style of the popular web development learning platform as a practice project.",
+      technologies: ["HTML5","CSS3","JavaScript"],
+      githubUrl: "https://github.com/iamutsab-git/W3Schools-Clone",
+      liveUrl: "https://iamutsab-git.github.io/W3Schools-Clone/",
+      imageUrl: "./src/assets/W3School.png"
     }
+    
   ]
 
   return (
@@ -127,7 +104,7 @@ const Portfolio = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="https://github.com/yourusername" 
+              href="https://github.com/iamutsab-git" 
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-3 bg-white/10 hover:bg-white/20 text-white font-semibold rounded-lg border border-white/20 hover:border-white/40 transition-all duration-200"
@@ -135,7 +112,7 @@ const Portfolio = () => {
               View GitHub Profile
             </a>
             <a 
-              href="mailto:your.email@example.com"
+              href="mailto:utsabgharti6@gmail.com"
               className="inline-flex items-center justify-center px-8 py-3 bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 text-white font-semibold rounded-lg transition-all duration-200 hover:scale-105"
             >
               Get In Touch
