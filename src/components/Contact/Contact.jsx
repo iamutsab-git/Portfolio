@@ -132,15 +132,6 @@ const Contact = () => {
                 >
                   <FaInstagram className="text-white text-2xl" />
                 </a>
-                <a 
-                  href="https://x.com/GhartiUtsav" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="bg-slate-700/50 hover:bg-slate-700/70 border border-white/10 p-4 rounded-lg transition-all duration-300"
-                  aria-label="Twitter"
-                >
-                  <FaTwitter className="text-white text-2xl" />
-                </a>
               </div>
             </div>
           </div>
