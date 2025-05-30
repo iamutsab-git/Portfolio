@@ -1,4 +1,5 @@
 import React from 'react'
+import utsab1 from '../../assets/utsab1.jpg';
 
 const About = () => {
   return (
@@ -24,7 +25,7 @@ const About = () => {
           <div className="w-80 h-80 mx-auto rounded-2xl border-2 border-white/20 overflow-hidden"
               style={{ background: 'linear-gradient(135deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.02) 100%)' }}>
             <img 
-              src="/src/assets/utsab1.jpg" 
+              src= {utsab1} 
               alt="Utsab Gharti" 
               className="w-full h-full object-cover"
             />

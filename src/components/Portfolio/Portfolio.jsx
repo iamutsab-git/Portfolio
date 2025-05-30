@@ -1,6 +1,8 @@
 import React from 'react'
 import Project from '../ProjectCart/Project'
-
+import Portfolio_SS from '../../assets/Portfolio_SS.png';
+import MovieMunch_SS from '../../assets/Movie-Munch_SS.png';
+import W3School from '../../assets/W3School.png';
 const Portfolio = () => {
   
   const projects = [
@@ -10,7 +12,7 @@ const Portfolio = () => {
       technologies: ["React", "TailwindCSS"],
       githubUrl: "https://github.com/iamutsab-git/Portfolio",
       liveUrl: "https://your-project1-demo.netlify.app",
-      imageUrl: "./src/assets/Portfolio_SS.png"
+      imageUrl: Portfolio_SS
     },
     {
       title: "Movie Munch", 
@@ -18,7 +20,7 @@ const Portfolio = () => {
       technologies: ["React", "TailwindCSS", "API"],
       githubUrl: "https://github.com/iamutsab-git/Movie-Munch",
       liveUrl: "https://iamutsab-git.github.io/Movie-Munch/",
-      imageUrl: "./src/assets/Movie-Munch_SS.png"
+      imageUrl: MovieMunch_SS
     },
     {
       title: "W3School Clone",
@@ -26,7 +28,7 @@ const Portfolio = () => {
       technologies: ["HTML5","CSS3","JavaScript"],
       githubUrl: "https://github.com/iamutsab-git/W3Schools-Clone",
       liveUrl: "https://iamutsab-git.github.io/W3Schools-Clone/",
-      imageUrl: "./src/assets/W3School.png"
+      imageUrl: W3School
     }
     
   ]
