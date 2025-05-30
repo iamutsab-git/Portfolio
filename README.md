@@ -22,9 +22,9 @@ You can view the live version here: [www.utsabgharti.com.np](https://utsabgharti
 | Area        | Technologies Used                      |
 |-------------|----------------------------------------|
 | **Frontend**| HTML, CSS, JavaScript, React.js        |
-| **Styling** | CSS Modules / Tailwind CSS (if used)   |
+| **Styling** | CSS Modules / Tailwind CSS   |
 | **Bundler** | Vite                                    |
-| **Deployment** | GitHub Pages / Vercel / Netlify     |
+| **Deployment** | GitHub Pages     |
 
 ---
 
