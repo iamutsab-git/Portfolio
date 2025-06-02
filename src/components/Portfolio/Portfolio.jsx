@@ -11,7 +11,7 @@ const Portfolio = () => {
       description: "A clean and responsive personal portfolio website built with React. It showcases my skills, projects, and contact information as a full stack web developer.",
       technologies: ["React", "TailwindCSS"],
       githubUrl: "https://github.com/iamutsab-git/Portfolio",
-      liveUrl: "https://your-project1-demo.netlify.app",
+      liveUrl: "https://www.utsabgharti.com.np",
       imageUrl: Portfolio_SS
     },
     {

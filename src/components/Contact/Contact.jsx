@@ -84,7 +84,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-gray-300 font-medium">Phone</h3>
-                    <a href="tel:+9779800000000" className="text-white hover:text-pink-400 transition-colors">
+                    <a href="tel:+9779846655716" className="text-white hover:text-pink-400 transition-colors">
                       +977 9846655716
                     </a>
                   </div>
@@ -136,6 +136,9 @@ const Contact = () => {
             </div>
           </div>
         </div>
+        <div className="text-sm text-gray-500 text-center pt-5">
+  &copy; 2025 Utsab Gharti. All rights reserved.
+</div>
       </div>
     </div>
   );
