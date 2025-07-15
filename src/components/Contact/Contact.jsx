@@ -1,6 +1,5 @@
 import React from 'react';
 import { FaGithub, FaLinkedin , FaEnvelope, FaPhoneAlt, FaFacebook, FaInstagram } from 'react-icons/fa';
-import { FaWhatsapp } from "react-icons/fa";
 const Contact = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 to-slate-800 py-12 px-6">
@@ -132,15 +131,7 @@ const Contact = () => {
                 >
                   <FaInstagram className="text-white text-2xl" />
                 </a>
-                <a 
-                  href="https://wa.me/9846655716" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="bg-slate-700/50 hover:bg-slate-700/70 border border-white/10 p-4 rounded-lg transition-all duration-300"
-                  aria-label="Instagram"
-                >
-                  <FaWhatsapp className="text-white text-2xl" />
-                </a>
+                
               </div>
               
             </div>
