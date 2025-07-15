@@ -142,12 +142,22 @@ const Contact = () => {
                   <FaWhatsapp className="text-white text-2xl" />
                 </a>
               </div>
+              
             </div>
           </div>
         </div>
         <div className="text-sm text-gray-500 text-center pt-5">
   &copy; 2025 Utsab Gharti. All rights reserved.
 </div>
+<div className='fixed bottom-10 right-10'>
+                <a  href="https://wa.me/9846655716" 
+                 rel="noopener noreferrer"
+                target='blank'><img
+                  className='w-15 h-15'
+                src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/512px-WhatsApp.svg.png'
+                />
+                </a>
+              </div>
       </div>
     </div>
   );
