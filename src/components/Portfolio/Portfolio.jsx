@@ -3,6 +3,7 @@ import Project from '../ProjectCart/Project'
 import Portfolio_SS from '../../assets/Portfolio_SS.png';
 import MovieMunch_SS from '../../assets/Movie-Munch_SS.png';
 import W3School from '../../assets/W3School.png';
+import Ubay_SS from "../../assets/image.png"
 const Portfolio = () => {
   
   const projects = [
@@ -21,6 +22,14 @@ const Portfolio = () => {
       githubUrl: "https://github.com/iamutsab-git/Movie-Munch",
       liveUrl: "https://iamutsab-git.github.io/Movie-Munch/",
       imageUrl: MovieMunch_SS
+    },
+       {
+      title: "Ubay E-Commerce", 
+      description: "A Ubay is a Full Stack e-commerce platform featuring user authentication, product browsing, cart management, order placement, and an admin dashboard for managing users, products, and orders. It supports secure payment integration and offers a clean, responsive UI.",
+      technologies: ["React", "TailwindCSS", "RESTfulAPI", "Nodejs", "Express.js", "MongoDb"],
+      githubUrl: "https://github.com/iamutsab-git/Ubay-E-Commerce.git",
+      // liveUrl: "https://github.com/iamutsab-git/Ubay-E-Commerce.git",
+      imageUrl: Ubay_SS
     },
     {
       title: "W3School Clone",
