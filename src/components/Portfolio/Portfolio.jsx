@@ -25,7 +25,7 @@ const Portfolio = () => {
     },
        {
       title: "Ubay E-Commerce", 
-      description: "A Ubay is a Full Stack e-commerce platform featuring user authentication, product browsing, cart management, order placement, and an admin dashboard for managing users, products, and orders. It supports secure payment integration and offers a clean, responsive UI.",
+      description: "A Ubay is a Full Stack e-commerce platform featuring user authentication, product browsing, cart management, order placement, and admin dashboard. It supports secure payment integration and offers a clean, responsive UI.",
       technologies: ["React", "TailwindCSS", "RESTfulAPI", "Nodejs", "Express.js", "MongoDb"],
       githubUrl: "https://github.com/iamutsab-git/Ubay-E-Commerce.git",
       // liveUrl: "https://github.com/iamutsab-git/Ubay-E-Commerce.git",
