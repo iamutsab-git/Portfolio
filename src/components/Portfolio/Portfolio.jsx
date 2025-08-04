@@ -17,10 +17,10 @@ const Portfolio = () => {
     },
     {
       title: "Movie Munch", 
-      description: "A sleek and simple web app for searching movies using the React, TailwindCSS, TMDB API. Through this project, I have learnt the concept of API.",
-      technologies: ["React", "TailwindCSS", "API"],
-      githubUrl: "https://github.com/iamutsab-git/Movie-Munch",
-      liveUrl: "https://iamutsab-git.github.io/Movie-Munch/",
+      description: "A sleek and simple Full stack web app for searching movies using the MERN stack, TMDB API. Through this project, I have learnt the concept of API.",
+      technologies: ["React","Node js","MongoDB","Express js","TailwindCSS", "API"],
+      githubUrl: "https://github.com/iamutsab-git/MovieMunch.git",
+      liveUrl: "https://movie-munch.onrender.com/",
       imageUrl: MovieMunch_SS
     },
        {
